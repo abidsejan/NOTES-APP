@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.web.HTMLEditor?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.notesapp.controller.NotesController">
+    <top>
+        <VBox>
+            <ToolBar>
+                <Button onAction="#newNote" text="New Note" />
+                <Button onAction="#deleteNote" text="Delete Note" />
+                <Button onAction="#openRecycleBin" text="Recycle Bin" />
+            </ToolBar>
+            <TextField fx:id="searchField" promptText="Search..." />
+        </VBox>
+    </top>
+    <left>
+        <ListView fx:id="notesListView" prefWidth="200.0" BorderPane.alignment="CENTER" />
+    </left>
+    <center>
+        <HTMLEditor fx:id="noteEditorView" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+    </center>
+</BorderPane>

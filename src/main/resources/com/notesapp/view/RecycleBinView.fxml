@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+
+<BorderPane xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.notesapp.controller.RecycleBinController">
+    <center>
+        <ListView fx:id="deletedNotesListView" />
+    </center>
+    <bottom>
+        <HBox alignment="CENTER" spacing="10">
+            <Button onAction="#restoreNote" text="Restore" />
+            <Button onAction="#permanentlyDeleteNote" text="Permanently Delete" />
+        </HBox>
+    </bottom>
+</BorderPane>
