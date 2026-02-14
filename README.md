@@ -1,4 +1,4 @@
-# 📝 JavaFX Notes App (iPhone Notes Inspired)
+# 📝 JavaFX Notes App
 
 A modern **JavaFX-based Notes Application**.
 This project provides a clean and responsive desktop experience where users can create, edit, search, and manage notes efficiently with automatic saving and persistent JSON storage.
@@ -42,9 +42,7 @@ It is designed with a modern UI, light/dark theme support, and real-time search 
 
 ---
 
-*(Structure may slightly vary depending on IDE setup)*
 
----
 
 ## ⚙️ Installation & Setup
 
@@ -112,11 +110,6 @@ Contributions are welcome!
 
 ---
 
-## 📜 License
-
-This project is open-source and available under the **MIT License**.
-
----
 
 ## 👨‍💻 Author
 
