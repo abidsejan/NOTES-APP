@@ -1,0 +1,22 @@
+.root {
+    -fx-font-family: "Inter";
+}
+
+.button {
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+.list-view {
+    -fx-background-color: #383838;
+}
+
+.list-cell {
+    -fx-text-fill: white;
+}
+
+.list-cell:filled:selected:focused, .list-cell:filled:selected {
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+}
